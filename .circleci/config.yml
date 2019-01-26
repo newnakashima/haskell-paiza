@@ -9,6 +9,9 @@ jobs:
           name: pwd
           command: pwd
       - run:
+          name: tree
+          command: tree
+      - run:
           name: Make.
           command: make
       - run:
