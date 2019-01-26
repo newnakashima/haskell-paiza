@@ -6,15 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: pwd
-          command: pwd
-      - run:
-          name: ls -al
-          command: ls -al
-      - run:
           name: Make.
-          command: make
+          command: cd botchi_c_3003 && make
       - run:
           name: Run tests.
-          command: ./tests.sh
+          command: cd botchi_c_3003 && ./tests.sh
 
