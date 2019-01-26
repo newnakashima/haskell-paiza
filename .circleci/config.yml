@@ -6,11 +6,11 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Make.
-          command: cd botchi_c_3003 && make
-      - run:
           name: stack.
           command: stack install split
+      - run:
+          name: Make.
+          command: cd botchi_c_3003 && make
       - run:
           name: Run tests.
           command: cd botchi_c_3003 && ./tests.sh
