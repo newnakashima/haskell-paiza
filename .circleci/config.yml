@@ -9,6 +9,9 @@ jobs:
           name: Make.
           command: cd botchi_c_3003 && make
       - run:
+          name: stack.
+          command: stack install split
+      - run:
           name: Run tests.
           command: cd botchi_c_3003 && ./tests.sh
 
