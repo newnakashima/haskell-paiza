@@ -1,0 +1,11 @@
+10
+p g
+c c
+p p
+g g
+c p
+c p
+g g
+p p
+g p
+p g
