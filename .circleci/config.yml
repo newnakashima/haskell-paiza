@@ -6,7 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run tests.
+          name: Make.
           command: make
+      - run:
+          name: Run tests.
           command: ./tests.sh
 
