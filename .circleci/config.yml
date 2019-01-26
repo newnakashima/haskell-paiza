@@ -13,5 +13,5 @@ jobs:
           command: cd botchi_c_3003 && make
       - run:
           name: Run tests.
-          command: cd botchi_c_3003 && ./tests.sh
+          command: cd botchi_c_3003 && ./test.sh
 
