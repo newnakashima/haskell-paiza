@@ -17,4 +17,7 @@ jobs:
       - run:
           name: "[botchi_c_3002] Run tests."
           command: cd botchi_c_3002 && ./test.sh
+      - run:
+          name: "[botchi_c_3001] Run tests."
+          command: cd botchi_c_3001 && ./test.sh
 
