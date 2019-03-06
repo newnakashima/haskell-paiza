@@ -1,4 +1,4 @@
-import Text.Regex.PCRE
+import Text.Regex.Posix
 
 main :: IO ()
 main = do
